@@ -6,7 +6,7 @@ nsentence = word.split()
 nsentence.each do |word|
   nword << word.reverse
 end
-rword = nword.join
+rword = nword.join(" ")
 
 
 end
