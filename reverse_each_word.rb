@@ -7,5 +7,6 @@ nsentence.each do |word|
   nword << word.reverse
 end
 rword = nword.join()
+nword
 
 end
