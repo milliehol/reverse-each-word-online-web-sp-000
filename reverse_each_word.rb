@@ -4,9 +4,9 @@ nword = []
 rword = nil
 nsentence = word.split()
 nsentence.collect do |word|
-  rword << word.reverse
+  nword << word.reverse
 end
-rword
+nword
 
 
 end
