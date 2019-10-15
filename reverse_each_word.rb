@@ -3,8 +3,8 @@ nsentence = []
 nword = []
 rword = nil
 nsentence = word.split()
-nsentence.each do |word|
-  nword << word.reverse
+nsentence.collect do |word|
+  nword = word.reverse
 end
 rword = nword.join(" ")
 
